@@ -1,8 +1,8 @@
-## My GitHub Repository
+# My GitHub Repository
 
-# Name: Jeff R. Bausa
+## Name: Jeff R. Bausa
 
-# Section: 8 - Dahlia
+## Section: 8 - Dahlia
 
 View these links:
 
