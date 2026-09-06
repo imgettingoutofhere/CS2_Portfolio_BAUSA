@@ -46,5 +46,3 @@ END
 
 # Part 4 - Clean Code Implementation
 ## Link to python file: ![Score Checker Python Code](score_checker.py)
-
-# Part 5 - 
