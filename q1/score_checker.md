@@ -48,24 +48,16 @@ END
 ## Link to python file: ![Score Checker Python Code](score_checker.py)
 
 # Part 5 - Test the Program
-------------------------------------------------------------------------------------------------------
-| Test |  Input  |            Purpose           | Expected Output     |  Actual Output        | Result |
-|------|---------|------------------------------|-------------------- |---------------------- |--------|
-| 1    |  -1     | Below minimum                | Invalid Score       | Invalid Score         | PASS   |
-|------|---------|------------------------------|-------------------- |---------------------- |--------|
-| 2    |  0      | Minimum boundary             | Needs Improvement   | Needs Improvement     | PASS   |
-|------|---------|------------------------------|-------------------- |---------------------- |--------|
-| 3    |  74     | Below satisfactory boundary  | Needs Improvement   | Needs Improvement     | PASS   |
-|------|---------|------------------------------|-------------------- |---------------------- |--------|
-| 4    |  75     | Satisfactory boundary        | Satisfactory        | Satisfactory          | PASS   |
-|------|---------|------------------------------|-------------------- |---------------------- |--------|
-| 5    |  80     | Very satisfactory boundary   | Very Satisfactory   | Very Satisfactory     | PASS   |
-|------|---------|------------------------------|-------------------- |---------------------- |--------|
-| 6    |  90     | Outstanding boundary         | Outstanding         | Outstanding           | PASS   |
-|------|---------|------------------------------|-------------------- |---------------------- |--------|
-| 7    |  100    | Maximum boundary             | Outstanding         | Outstanding           | PASS   |
-|------|---------|------------------------------|-------------------- |---------------------- |--------|
-| 8    |  101    | Above maximum                | Invalid Score       | Invalid Score         | PASS   |
-|------|---------|------------------------------|-------------------- |---------------------- |--------|
+| Test | Input | Purpose | Expected Output | Actual Output | Result |
+|---|---:|---|---|---|---|
+| 1 | -1 | Below minimum | Invalid Score | Invalid Score | PASS |
+| 2 | 0 | Minimum boundary | Needs Improvement | Needs Improvement | PASS |
+| 3 | 74 | Below satisfactory boundary | Needs Improvement | Needs Improvement | PASS |
+| 4 | 75 | Satisfactory boundary | Satisfactory | Satisfactory | PASS |
+| 5 | 80 | Very satisfactory boundary | Very Satisfactory | Very Satisfactory | PASS |
+| 6 | 90 | Outstanding boundary | Outstanding | Outstanding | PASS |
+| 7 | 100 | Maximum boundary | Outstanding | Outstanding | PASS |
+| 8 | 101 | Above maximum | Invalid Score | Invalid Score | PASS |
+
 
 # Reflection
