@@ -19,5 +19,5 @@
 > The program uses `if`, `elif`, and `else` statements to choose the correct classification based on the student's score. It checks the score from the highest classification to the lowest until the correct result is found.
 
 # Part 2 - Create the Flowchart
-## Link for flowchart: ![Score Checker Flowchart](score_checker.flowchart.png)
+## Link for flowchart: ![Score Checker Flowchart](score_checker_flowchart.png)
 
