@@ -21,3 +21,17 @@
 # Part 2 - Create the Flowchart
 ## Link for flowchart: ![Score Checker Flowchart](score_checker_flowchart.png)
 
+# Part 3 - Write the Pseudocode
+START
+INPUT score
+IF score >= 90 AND score <= 100
+→ DISPLAY "Outstanding"
+ELSE IF score >= 80 AND score <= 89
+→ DISPLAY "Very Satisfactory"
+ELSE IF score >= 75 AND score <= 79
+→ DISPLAY "Satisfactory"
+ELSE IF score < 75
+→ DISPLAY "Needs Improvement"
+END
+
+
