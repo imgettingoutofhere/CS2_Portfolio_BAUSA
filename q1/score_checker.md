@@ -19,7 +19,7 @@
 > The program uses `if`, `elif`, and `else` statements to choose the correct classification based on the student's score. It checks the score from the highest classification to the lowest until the correct result is found.
 
 # Part 2 - Create the Flowchart
-## Link for flowchart: ![Score Checker Flowchart](score_checker_flowchart.png)
+## Link to flowchart: ![Score Checker Flowchart](score_checker_flowchart.png)
 
 # Part 3 - Write the Pseudocode
 START
@@ -44,4 +44,10 @@ ELSE IF score < 75
 
 END
 
+# Part 4 - Clean Code Implementation
+## Link to python file: ![Score Checker Python Code](score_checker.py)
 
+# Part 5 - Test the Program
+
+
+# Part 5 - 
