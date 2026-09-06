@@ -60,4 +60,28 @@ END
 | 8 | 101 | Above maximum | Invalid Score | Invalid Score | PASS |
 
 
+# Testing Reflection
+## Why is it important to test the values 0 and 100?
+> Because 0 and 100 are the minimum and maximum valid scores. Anything below or above that is invalid.
+
+## Why did you also test -1 and 101?
+> To determine if the program properly identifies values outside of the range.
+
+## Which test helped you understand boundary conditions the most?
+> Testing 75, 80, and 90 helped me understand boundary conditions the most because these values are where the classifications change.
+
+## What outcomes can the program producs?
+> It can produce, Outstanding, Very Satisfactory, Satisfactory, Needs Improvement and Invalid Score.
+
+## Did any of your tests initially fail? If yes, what did you change in your program?
+> No, my tests did not initially fail. The program produced the expected results for all the test cases.
+
 # Reflection
+## How did selection structures make the program more useful?
+> Selection structures allowed the program to make decisions and give the correct classification based on the student's score.
+
+## How did proper comments and readable formatting improve your program?
+> They made the code easier to understand, read, and check for mistakes.
+
+## Why is it useful to plan the program using a flowchart and pseudocode before writing the code?
+> It helps organize the logic first and makes it easier to write the code correctly.
