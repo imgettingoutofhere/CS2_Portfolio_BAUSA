@@ -31,7 +31,7 @@ except ValueError:
 # 4. Email - Simple Pattern Validation
 try:
  email = str(input("Please input your email: "))
- if not "@" and "." in email:
+ if "@" not in email and "." not in email:
     print ("Invalid email.")
     raise SystemExit
 
