@@ -83,7 +83,7 @@
 END
 
 # Part C - Program Implementation
-## Python Code: [Workshop Validator Python Code](q1/workshop_validator.py)
+## Python Code: [Workshop Validator Python Code](workshop_validator.py)
 
 # Part D - Testing
 
