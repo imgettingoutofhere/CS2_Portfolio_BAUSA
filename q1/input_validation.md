@@ -2,11 +2,11 @@
 
 | Field | Expected Input | Validation Type | Rule | Invalid Example | Error Message |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1. Student Name** | String | Presence | Cannot be empty / left blank | `""` (Just pressing enter) | "Student name is required." |
-| **2. Age** | Integer | Data Type + Range | Must be a whole number from 11 to 18 | `10` or `"sixteen"` | "Age must be from 11 to 18." / "Age must be a number." |
-| **3. Grade Level** | Integer | Range / Acceptable Value | Must be a whole number from 7 to 12 | `6` or `13` | "Invalid grade level." |
-| **4. Email** | String | Simple Pattern | Must contain both "@" and "." characters | `"student[at]email.com"` | "Invalid email." |
-| **5. Registration Code** | String | Length | Must be exactly 6 characters long | `"12345"` (5 characters) | "The registration code must contain exactly 6 characters." |
+| **1. Student Name** | String | Presence | Cannot be empty / left blank | "" (Just pressing enter) | "Student name is required." |
+| **2. Age** | Integer | Data Type + Range | Must be a whole number from 11 to 18 | 10 or "sixteen" | "Age must be from 11 to 18." / "Age must be a number." |
+| **3. Grade Level** | Integer | Range / Acceptable Value | Must be a whole number from 7 to 12 | 6 or 13 | "Invalid grade level." |
+| **4. Email** | String | Simple Pattern | Must contain both "@" and "." characters | "student[at]email.com" | "Invalid email." |
+| **5. Registration Code** | String | Length | Must be exactly 6 characters long | "12345" (5 characters) | "The registration code must contain exactly 6 characters." |
 
 ## Validation Questions
 ### 1. Why should the student name not be blank?
@@ -90,15 +90,15 @@ END
 | Test | Input / Condition | Validation Being Tested | Expected Output | Actual Output | Result |
 |---:|---|---|---|---|---|
 | **1** | All inputs valid | Normal case | Full registration details printed successfully. | Full registration details printed successfully. | **PASS** |
-| **2** | Blank student name | Presence | `"Student name is required."` | `"Student name is required."` | **PASS** |
-| **3** | Age = `fourteen` | Data type | `"Age must be a number."` | `"Age must be a number."` | **PASS** |
-| **4** | Age = `11` | Minimum boundary | No error; moves to Grade Level prompt. | No error; moves to Grade Level prompt. | **PASS** |
-| **5** | Age = `18` | Maximum boundary | No error; moves to Grade Level prompt. | No error; moves to Grade Level prompt. | **PASS** |
-| **6** | Age = `10` | Range | `"Age must be from 11 to 18."` | `"Age must be from 11 to 18."` | **PASS** |
-| **7** | Grade Level = `13` | Acceptable value | `"Invalid grade level."` | `"Invalid grade level."` | **PASS** |
-| **8** | Email = `studentpshs.edu.ph` | Pattern *(Missing `@`)* | `"Invalid email."` | `"Invalid email."` | **PASS** |
-| **9** | Registration Code = `ABC` | Length *(Too short)* | `"The registration code must contain exactly 6 characters."` | `"The registration code must contain exactly 6 characters."` | **PASS** |
-| **10** | Registration Code = `CS2026` | Valid length | Full registration details printed successfully. | Full registration details printed successfully. | **PASS** |
+| **2** | Blank student name | Presence | "Student name is required." | "Student name is required." | **PASS** |
+| **3** | Age = fourteen | Data type | "Age must be a number." | "Age must be a number." | **PASS** |
+| **4** | Age = 11 | Minimum boundary | No error; moves to Grade Level prompt. | No error; moves to Grade Level prompt. | **PASS** |
+| **5** | Age = 18 | Maximum boundary | No error; moves to Grade Level prompt. | No error; moves to Grade Level prompt. | **PASS** |
+| **6** | Age = 10 | Range | "Age must be from 11 to 18." | "Age must be from 11 to 18."` | **PASS** |
+| **7** | Grade Level = 13 | Acceptable value | "Invalid grade level." | "Invalid grade level." | **PASS** |
+| **8** | Email = studentpshs.edu.ph | Pattern *(Missing @)* | "Invalid email." | "Invalid email." | **PASS** |
+| **9** | Registration Code = ABC | Length *(Too short)* | "The registration code must contain exactly 6 characters." | "The registration code must contain exactly 6 characters." | **PASS** |
+| **10** | Registration Code = CS2026 | Valid length | Full registration details printed successfully. | Full registration details printed successfully. | **PASS** |
 
 # Part E - Output Verification
 ## Verification Test 1
