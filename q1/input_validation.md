@@ -86,3 +86,16 @@ END
 ## Python Code: [Workshop Validator Python Code](q1/workshop_validator.py)
 
 # Part D - Testing
+
+| Test | Input / Condition | Validation Being Tested | Expected Output | Actual Output | Result |
+|---:|---|---|---|---|---|
+| **1** | All inputs valid *(e.g., Name: Jo, Age: 15, Grade: 10, Email: a@b.com, Code: 123456)* | Normal case | Full registration details printed successfully. | Full registration details printed successfully. | **PASS** |
+| **2** | Blank student name | Presence | `"Student name is required."` | `"Student name is required."` | **PASS** |
+| **3** | Age = `fourteen` | Data type | `"Age must be a number."` | `"Age must be a number."` | **PASS** |
+| **4** | Age = `11` | Minimum boundary | No error; moves to Grade Level prompt. | No error; moves to Grade Level prompt. | **PASS** |
+| **5** | Age = `18` | Maximum boundary | No error; moves to Grade Level prompt. | No error; moves to Grade Level prompt. | **PASS** |
+| **6** | Age = `10` | Range | `"Age must be from 11 to 18."` | `"Age must be from 11 to 18."` | **PASS** |
+| **7** | Grade Level = `13` | Acceptable value | `"Invalid grade level."` | `"Invalid grade level."` | **PASS** |
+| **8** | Email = `studentpshs.edu.ph` | Pattern *(Missing `@`)* | `"Invalid email."` | `"Invalid email."` | **PASS** |
+| **9** | Registration Code = `ABC` | Length *(Too short)* | `"The registration code must contain exactly 6 characters."` | `"The registration code must contain exactly 6 characters."` | **PASS** |
+| **10** | Registration Code = `CS2026` | Valid length | Full registration details printed successfully. | Full registration details printed successfully. | **PASS** |
