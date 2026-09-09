@@ -8,7 +8,24 @@
 | **4. Email** | String | Simple Pattern | Must contain both "@" and "." characters | `"student[at]email.com"` | "Invalid email." |
 | **5. Registration Code** | String | Length | Must be exactly 6 characters long | `"12345"` (5 characters) | "The registration code must contain exactly 6 characters." |
 
+## Validation Questions
+### 1. Why should the student name not be blank?
+> Because the system would recognize it as an error and immediately display the error message and end the program.
+
+### 2. Why should age be checked for both data type and range?
+> To determine what value is needed and to set a limit for how old you must be to be registered, in this situation being between 11 and 18 years old.
+
+### 3. Why should grade level only accept specific values?
+> So that it is easier for the user to understand what is needed and give the correct value.
+
+### 4. What format requirements did you use for the email address?
+> The format requirements I set that is needed for the email address is that it has to have a dot(.) and the at symbol(@)
+
+### 5. What length requirement did you use for the registration code?
+> I set the length requirement to 6 characters, no more and no less.
+
 # Part B - Program Design
+ 
  START
  
     # 1. Student Name Validation
@@ -64,3 +81,8 @@
     OUTPUT "Email: " + email
     OUTPUT "Registration code: " + rcode
 END
+
+# Part C - Program Implementation
+## Python Code: [Workshop Validator Python Code](q1/workshop_validator.py)
+
+# Part D - Testing
