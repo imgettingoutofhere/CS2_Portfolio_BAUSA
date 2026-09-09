@@ -2,7 +2,7 @@
 
 | Field | Expected Input | Validation Type | Rule | Invalid Example | Error Message |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1. Student Name** | String | Presence | Cannot be empty / left blank | `""` (Just pressing Enter) | "Student name is required." |
+| **1. Student Name** | String | Presence | Cannot be empty / left blank | `""` (Just pressing enter) | "Student name is required." |
 | **2. Age** | Integer | Data Type + Range | Must be a whole number from 11 to 18 | `10` or `"sixteen"` | "Age must be from 11 to 18." / "Age must be a number." |
 | **3. Grade Level** | Integer | Range / Acceptable Value | Must be a whole number from 7 to 12 | `6` or `13` | "Invalid grade level." |
 | **4. Email** | String | Simple Pattern | Must contain both "@" and "." characters | `"student[at]email.com"` | "Invalid email." |
@@ -104,11 +104,15 @@ END
 ## Verification Test 1
 *Input*:
 Please enter your name: 
+
 *Expected Output:*
 Student name is required.
+
 *Actual Output:*
 Student name is required.
+
 *Result:* PASS
+
 *Explanation:*
 > The input was left blank. The presence validation successfully detected the empty value of string, printed the required error message, and ended the program as expected.
 
@@ -116,11 +120,15 @@ Student name is required.
 *Input:*
 Please enter your name: Jo
 Please enter your age: fourteen
+
 *Expected Output:*
 Age must be a number.
+
 *Actual Output:*
 Age must be a number.
+
 *Results:* PASS
+
 *Explanation:*
 > The user entered a string value instead of an integer value for the age. The data type validation caught the ValueError exception, displayed the correct error message, and ended the program.
 
@@ -130,11 +138,15 @@ Please enter your name: Jo
 Please enter your age: 15
 Please input your grade level: 10
 Please input your email: studentpshs.edu.ph
+
 *Expected Output:*
 Invalid email.
+
 *Actual Output:*
 Invalid email.
+
 *Result:* PASS
+
 *Explanation:*
 > The user entered an email string that lacks the `@` character symbol requirement. The pattern boundary check correctly flagged this format as invalid.
 
