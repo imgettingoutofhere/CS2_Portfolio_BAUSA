@@ -89,7 +89,7 @@ END
 
 | Test | Input / Condition | Validation Being Tested | Expected Output | Actual Output | Result |
 |---:|---|---|---|---|---|
-| **1** | All inputs valid *(e.g., Name: Jo, Age: 15, Grade: 10, Email: a@b.com, Code: 123456)* | Normal case | Full registration details printed successfully. | Full registration details printed successfully. | **PASS** |
+| **1** | All inputs valid | Normal case | Full registration details printed successfully. | Full registration details printed successfully. | **PASS** |
 | **2** | Blank student name | Presence | `"Student name is required."` | `"Student name is required."` | **PASS** |
 | **3** | Age = `fourteen` | Data type | `"Age must be a number."` | `"Age must be a number."` | **PASS** |
 | **4** | Age = `11` | Minimum boundary | No error; moves to Grade Level prompt. | No error; moves to Grade Level prompt. | **PASS** |
@@ -99,3 +99,57 @@ END
 | **8** | Email = `studentpshs.edu.ph` | Pattern *(Missing `@`)* | `"Invalid email."` | `"Invalid email."` | **PASS** |
 | **9** | Registration Code = `ABC` | Length *(Too short)* | `"The registration code must contain exactly 6 characters."` | `"The registration code must contain exactly 6 characters."` | **PASS** |
 | **10** | Registration Code = `CS2026` | Valid length | Full registration details printed successfully. | Full registration details printed successfully. | **PASS** |
+
+# Part E - Output Verification
+## Verification Test 1
+*Input*:
+Please enter your name: 
+*Expected Output:*
+Student name is required.
+*Actual Output:*
+Student name is required.
+*Result:* PASS
+*Explanation:*
+> The input was left blank. The presence validation successfully detected the empty value of string, printed the required error message, and ended the program as expected.
+
+## Verification Test 2
+*Input:*
+Please enter your name: Jo
+Please enter your age: fourteen
+*Expected Output:*
+Age must be a number.
+*Actual Output:*
+Age must be a number.
+*Results:* PASS
+*Explanation:*
+> The user entered a string value instead of an integer value for the age. The data type validation caught the ValueError exception, displayed the correct error message, and ended the program.
+
+## Verification Test 3
+*Input:*
+Please enter your name: Jo
+Please enter your age: 15
+Please input your grade level: 10
+Please input your email: studentpshs.edu.ph
+*Expected Output:*
+Invalid email.
+*Actual Output:*
+Invalid email.
+*Result:* PASS
+*Explanation:*
+> The user entered an email string that lacks the `@` character symbol requirement. The pattern boundary check correctly flagged this format as invalid.
+
+# Reflection
+## 1. Why should a program validate input before processing it?
+> Validating input prevents the program from crashing or breaking due to unexpected user entries. It also ensures that the system only processes clean, accurate data.
+
+## 2. What is the difference between input validation and output verification?
+> Input validation checks if the user's data is correct and safe before the program accepts it. Output verification checks the final results after processing to ensure the program produced the right answer.
+
+## 3. Which validation technique was easiest for you to implement? Why?
+> Presence validation for the student name was the easiest to implement. It only requires a simple check to see if the input string is empty or blank.
+
+## 4. Which validation technique was most challenging? Why?
+> Email pattern validation was the most challenging because checking for specific characters like @ and . requires a more complex logical condition. A small logic mistake can easily let invalid email formats slip through undetected.
+
+## 5. How did testing invalid inputs help you improve your program?
+> Testing invalid inputs helped reveal a logical bug in the original email validation code that let bad data pass through. Finding this flaw allowed the logic to be corrected so the program handles errors properly.
