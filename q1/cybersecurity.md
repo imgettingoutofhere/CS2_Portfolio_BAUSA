@@ -18,13 +18,21 @@
 
 # Part B - Data Privacy and Secure Data Capture
 Student Name - **COLLECT**: This is required to identify which specific student is registering for the club activity.
+
 Section - **COLLECT**:  This is necessary to ensure the student belongs to an approved class.
+
 Club Choice - **COLLECT**: This determines the student's preference for the specific club they wish to join.
+
 School Email - **COLLECT**:  This serves as the official communication channel for sending club updates.
+
 Attendance Status - **COLLECT**:  This tracks the student's presence during the registration or initial meeting period.
+
 Password - **DO NOT COLLECT**: Storing or asking for account passwords introduces a severe security risk.
+
 OTP - **DO NOT COLLECT**: OTPs are short-lived security codes used exclusively for identity verification.
+
 Home Address - **DO NOT COLLECT**: Collecting physical addresses violates the principle of data minimization since a student's home location is irrelevant to running a school club.
+
 Parent Bank Account - **DO NOT COLLECT**: Financial details are highly sensitive and completely unrelated to a free school club activity, creating a major data breach risk if gathered.
 
 # Part C - Validation Rules
