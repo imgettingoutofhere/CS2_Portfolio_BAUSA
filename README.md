@@ -22,4 +22,4 @@ workshop_validator.py: [Workshop Validator Python Code](q1/workshop_validator.py
 
 secure_registration.py: [Secure Registration Python Code](q1/secure_registration.py)
 
-cybersecurity.md: [Cybersecurity Markdown](q1/cybersecurity.md_)
+cybersecurity.md: [Cybersecurity Markdown](q1/cybersecurity.md)
