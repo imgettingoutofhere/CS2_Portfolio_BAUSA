@@ -19,3 +19,7 @@ score_checker_flowchart.png: [Score Checker Flowchart](q1/score_checker_flowchar
 input_validation.md: [Input Validation Markdown](q1/input_validation.md)
 
 workshop_validator.py: [Workshop Validator Python Code](q1/workshop_validator.py)
+
+secure_registration.py: [Secure Registration Python Code](q1/secure_registration.py)
+
+cybersecurity.md: [Cybersecurity Markdown](q1/cybersecurity.md_)
