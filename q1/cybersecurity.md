@@ -61,5 +61,3 @@ Parent Bank Account - **DO NOT COLLECT**: Financial details are highly sensitive
 | 6 | Email missing . | Rejected | Prints "Invalid email." and stops the program | PASS |
 | 7 | Invalid attendance status | Rejected | Prints "Invalid attendance status." and stops the program | PASS |
 | 8 | Valid alternative values | Accepted | Shows the full "REGISTRATION ACCEPTED" block with alternative list items | PASS |
-
-# Part D -
