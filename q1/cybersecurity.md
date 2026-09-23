@@ -45,3 +45,21 @@ Parent Bank Account - **DO NOT COLLECT**: Financial details are highly sensitive
 | **Student Email** | An email with symbols | Entering a broken email that will not work | `"studentpshs"` | Must have both an `@` and a `.` inside it | Invalid email. |
 | **Attendance Status** | Present, Absent, or Late | Writing an unapproved status | `"Sick"` | Must be exactly Present, Absent, or Late | Invalid attendance status. |
 
+# Part D - Secure Program Implementation
+### [Secure Registration Python Code](q1/secure_registration.py)
+
+# Part E - Security Testing and Reflection
+### Part E - Security Testing and Reflection
+
+| Test | Input Situation | Expected Result | Actual Output | PASS / FAIL |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | All fields valid | Registration accepted | Shows the full "REGISTRATION ACCEPTED" block with all user details | PASS |
+| 2 | Blank name | Rejected | Prints "Student name is required." and stops the program | PASS |
+| 3 | Invalid section | Rejected | Prints "Invalid Section." and stops the program | PASS |
+| 4 | Invalid club | Rejected | Prints "Please choose a valid club." and stops the program | PASS |
+| 5 | Email missing @ | Rejected | Prints "Invalid email." and stops the program | PASS |
+| 6 | Email missing . | Rejected | Prints "Invalid email." and stops the program | PASS |
+| 7 | Invalid attendance status | Rejected | Prints "Invalid attendance status." and stops the program | PASS |
+| 8 | Valid alternative values | Accepted | Shows the full "REGISTRATION ACCEPTED" block with alternative list items | PASS |
+
+# Part D -
