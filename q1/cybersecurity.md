@@ -37,3 +37,11 @@ Parent Bank Account - **DO NOT COLLECT**: Financial details are highly sensitive
 
 # Part C - Validation Rules
 
+| Data Captured | Expected Input | Possible Risk | Invalid Input | Validation Rule | Error Message |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Student Name** | Text that is not blank | Leaves the name empty in the list | `""` (blank) | Cannot be empty | Student name is required. |
+| **Section** | A real section name from the list (like Dahlia) | Typing a section that does not exist | `"Rose"` | Must be in the allowed sections list | Invalid Section. |
+| **Club Choice** | Robotics, Science, Mathematics, or Programming | Choosing a club the school does not offer | `"Gaming"` | Must match one of the 4 choice options | Please choose a valid club. |
+| **Student Email** | An email with symbols | Entering a broken email that will not work | `"studentpshs"` | Must have both an `@` and a `.` inside it | Invalid email. |
+| **Attendance Status** | Present, Absent, or Late | Writing an unapproved status | `"Sick"` | Must be exactly Present, Absent, or Late | Invalid attendance status. |
+
