@@ -4,8 +4,6 @@
 
 ## Section: 8 - Dahlia
 
-Check out these links:
-
 ## 1st Quarter
 
 distance.py: [Hello.py](q1/hello.py)
@@ -25,3 +23,5 @@ workshop_validator.py: [Workshop Validator Python Code](q1/workshop_validator.py
 secure_registration.py: [Secure Registration Python Code](q1/secure_registration.py)
 
 cybersecurity.md: [Cybersecurity Markdown](q1/cybersecurity.md)
+
+## 2nd Quarter
