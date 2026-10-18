@@ -6,6 +6,8 @@
 
 Check out these links:
 
+## 1st Quarter
+
 distance.py: [Hello.py](q1/hello.py)
 
 hello.py: [Distance.py](q1/distance.py)
