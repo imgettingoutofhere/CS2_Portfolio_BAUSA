@@ -25,3 +25,5 @@ secure_registration.py: [Secure Registration Python Code](q1/secure_registration
 cybersecurity.md: [Cybersecurity Markdown](q1/cybersecurity.md)
 
 ## 2nd Quarter
+
+canteen_purchase_calculator.py: [The Canteen Purchase Calculator](q2/canteen_purchase_calculator.py)
