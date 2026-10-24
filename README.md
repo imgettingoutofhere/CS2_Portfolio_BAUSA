@@ -27,3 +27,5 @@ cybersecurity.md: [Cybersecurity Markdown](q1/cybersecurity.md)
 ## 2nd Quarter
 
 canteen_purchase_calculator.py: [The Canteen Purchase Calculator](q2/canteen_purchase_calculator.py)
+
+student_performance_evaluator.py: [Student Performance Evaluator](q2/student_performance_evaluator.py)
