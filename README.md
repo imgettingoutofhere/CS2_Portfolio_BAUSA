@@ -30,4 +30,4 @@ canteen_purchase_calculator.py: [The Canteen Purchase Calculator](q2/canteen_pur
 
 student_performance_evaluator.py: [Student Performance Evaluator](q2/student_performance_evaluator.py)
 
-iterative_control_structure.py: [Iterative Control Structure Exercises](q2/iterative_control_structure.py)
+programming_exercises.py: [Programming Exercises](q2/programming_exercises.py)
