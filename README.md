@@ -31,3 +31,5 @@ canteen_purchase_calculator.py: [The Canteen Purchase Calculator](q2/canteen_pur
 student_performance_evaluator.py: [Student Performance Evaluator](q2/student_performance_evaluator.py)
 
 programming_exercises1.py: [Programming Exercises 1](q2/programming_exercises1.py)
+
+programming_exercises2.py: [Programming Exercises 2](q2/programming_exercises2.py)
